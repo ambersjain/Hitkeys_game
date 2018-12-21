@@ -1,0 +1,7 @@
+Name, Author, Download URL, Attribution URL, License Type
+
+soundtrack.mp3, Benjamin TISSOT, https://www.bensound.com/royalty-free-music/track/slow-motion, https://www.bensound.com/licensing, Attribution 3.0
+onclick.mp3, Daniel Simion, http://soundbible.com/2168-Electric-Typewriter.html, http://soundbible.com/royalty-free-sounds-1.html, Attribution 3.0
+background1.jpg, Free-Photos / 9114 images, https://pixabay.com/en/typewriter-book-notes-paper-801921/, n/a, CC0
+montserrat, Julieta Ulanovsky, https://www.fontsquirrel.com/fonts/montserrat, n/a, Open Font License
+Nanum Gothic, Sandoll, https://fonts.google.com/specimen/Nanum+Gothic ,n/a, Open Font License

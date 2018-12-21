@@ -1,0 +1,227 @@
+@media screen and (max-height:450px) {
+  .divMenu {
+    position: relative;
+    padding-top: 0 !important;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+  }
+
+  button {
+    margin: 10 !important;
+    padding: 10 !important;
+  }
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url('Fonts/NanumGothic-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url('Fonts/NanumGothic-Bold.ttf');
+  font-weight: bold;
+}
+
+/*Animation to fade in Game TITLE */
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply to all*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('images/background1.jpg');
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 5px solid #0A2530;
+  box-shadow: 2px 10px #888888;
+  border-radius: 20px;
+  font-family: 'Nanum Gothic';
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  color: #FEEEDC;
+  font-size: 50px;
+  margin-bottom: 50px;
+  padding: 5px;
+  border: 2px solid #FEEEDC;
+  display: inline;
+  background-color: #0A2530;
+  border-radius: 20px;
+}
+
+h2 {
+  color: #FEEEDC;
+  margin-bottom: 20px;
+}
+
+.containerTime {
+  float: right;
+}
+
+/*Container which stores time and score */
+.mainContainer {
+  padding: 15px;
+  margin: 5px;
+  border-radius: 20px;
+  display: block;
+  clear: both;
+  position: absolute;
+  top: 20;
+  right: 20;
+  font-size: 20px;
+  color: white;
+  background-color: #092834;
+}
+
+/*Colours the character when the typed letter is a match */
+.checker {
+  background-color: #FEFE33;
+  color: black !important;
+}
+
+button {
+  border: none;
+  background-color: #D1600A;
+  box-shadow: 1px 1px 10px #FDDBC1;
+  outline: none;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+/*When a button becomes disabled */
+button:disabled,
+button[disabled] {
+  background-color: #FFEBDC;
+  color: black;
+}
+
+.divMenu {
+  position: relative;
+  padding-top: 140px;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.backButton {
+  cursor: alias;
+  background-color: #FEAB6D;
+  position: absolute;
+  bottom: 20;
+  left: 5;
+}
+
+.displayLine {
+  margin-top: 50px;
+}
+
+.displayLine span {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+div {
+  text-align: center;
+}
+
+.rulesPara {
+  margin: 10px;
+  padding: 20px;
+  border: 3px solid #0A2530;
+  border-radius: 20px;
+  color: black;
+  background-color: #FFEBDC;
+}

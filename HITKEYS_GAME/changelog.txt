@@ -1,0 +1,119 @@
+#Changelog
+All notable major changes to this project are documented in this file.
+
+## 18/08/2018
+### Added
+- All the User Interface functions that will be needed in the program.
+- Designed the basic structure of the program (code)
+- Wrote pseudo code for the program.
+- configureGameUI()
+
+### Still working on
+- configureGameUI(): Number of <div> tags and paragraphs required.
+- Game layout
+- Code to test character typed
+
+### Summary of this week
+Major pseudocode has been written but cannot find anything good algorithm for character typed testing over
+the internet related to the typing game. 'ui.js' and configureGameUI() have been added to the program.
+
+## 03/09/2018
+### Added
+- Added generateNewWord() function
+- setInterval() function for the timer
+- Researched about how to check key pressed by the user
+- The checkKey() function was inspired from (https://codereview.stackexchange.com/questions/122053/typing-game-in-javascript)
+
+### Still working on-
+- setInterval function
+- Game layout
+- Load data from 'data.js' object
+
+### Summary of this week
+Struggled a lot to create generateNewWord() function as it was throwing some sort of error on each step. Tracked them down using
+'console.log' after each line. setInterval() was also not working as expected, levels were changing too fast and unexpectedly. Researched
+on google and found setTimeout() is better to use.
+
+## 08/09/2018
+### Added
+- 'score' and 'time' spans and paragraphs
+- countdown()
+- updateLevel()
+- data for levels
+
+### Changed
+- 'ids' are changed to 'classes' for all <div> elements
+
+### Still working on-
+- Game layout
+- adding data for 'hard' and 'medium' levels
+- checkKey() function
+
+### Summary of this week
+The major problem faced this week was adding a lot of random data into the data file. Found a wonderful website which
+does exactly this. (generatedata.com) Used '.csv' random generator and then generated random strings.
+
+## 13-09-2018
+### Added
+- Buttons for 'next level'
+- updateLevel1(), updateLevel2(), updateLevel3(), updateLevel4(), updateLevel5()
+- addEventListener() added and tested many times
+- startGameButtonHandler(level)
+- levelButtonHandler()
+- createDifficultyMenu()
+
+### Changed
+- Rather than typing 'score' in a <span> tag, it is written as a paragraph
+
+### Still working on-
+- Game layout
+- Button for difficulty menu
+- Animating the text in gameplay
+
+### Summary of this week
+Created 6 major levels this week based on time. Combining it with 3 levels of difficulty, there will be a total of 24 levels
+in the game. All the button handlers were also added in the code and tested. Next week I want to create a main menu
+and then proceed from there.
+
+## 16-09-2018
+### Added
+- Button for starting game
+- createMainMenu()
+- Buttons for instructions
+- Button for 'back to main menu'
+
+### Changed
+- Rather than calling configureGameUI() in loadApplication(), it is called from levelButtonHandler()
+
+### Still working on-
+- Increasing responsiveness of the game play page
+- checkKey() function
+- Understanding 'String.fromCharCode()'
+
+### Summary of this week
+Main menu was created without much hassle. Creating 'back to main menu' button is important for the game as this will enable User
+to return to the main screen anytime between the game. All the major code for the app is ready, all that is needed now is
+a great CSS and sound.
+
+## 18-09-2018
+### Added
+- soundtrack
+- sound to play on each button click
+- background image
+- Major CSS
+- @media tags for making it work in landscape mode in iPhone X
+
+### Changed
+- instructions inside loadInstruction()
+- Play background music not from the start, but only when the user clicks on Difficulty level.
+
+### Still working on-
+- CSS colours and animations
+- improving button style
+- Improving timer menu
+
+### Summary of this week
+Founding a open source good soundtrack was critical as it enhances the user experience Had to find a way to set
+property for changing 'opaque' property of background image as there is no such property in HTML for this purpose.
+Changed a lot of game layout when the game is played in
+landscape mode.

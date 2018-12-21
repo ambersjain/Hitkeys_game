@@ -1,0 +1,3 @@
+Name, Author, Download URL, Attribution URL, License Type
+montserrat, Julieta Ulanovsky, https://www.fontsquirrel.com/fonts/montserrat, n/a, Open Font License
+Nanum Gothic, Sandoll, https://fonts.google.com/specimen/Nanum+Gothic ,n/a, Open Font License
